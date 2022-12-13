@@ -11,6 +11,13 @@
 		29AF9F462946C6F6002231E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF9F452946C6F6002231E1 /* ContentView.swift */; };
 		29AF9F482946C6F8002231E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29AF9F472946C6F8002231E1 /* Assets.xcassets */; };
 		29AF9F4B2946C6F8002231E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29AF9F4A2946C6F8002231E1 /* Preview Assets.xcassets */; };
+		29AF9F532946C7D4002231E1 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF9F522946C7D4002231E1 /* Product.swift */; };
+		29AF9F582946C9C4002231E1 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF9F572946C9C4002231E1 /* ProductCard.swift */; };
+		29AF9F5B2946E3BA002231E1 /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF9F5A2946E3BA002231E1 /* CartButton.swift */; };
+		29AF9F5D29474A72002231E1 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF9F5C29474A72002231E1 /* CartView.swift */; };
+		29AF9F5F29474C19002231E1 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF9F5E29474C19002231E1 /* CartManager.swift */; };
+		29AF9F6129475301002231E1 /* ProductRaw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF9F6029475301002231E1 /* ProductRaw.swift */; };
+		29AF9F6329480BDE002231E1 /* PaymentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF9F6229480BDE002231E1 /* PaymentButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		29AF9F452946C6F6002231E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		29AF9F472946C6F8002231E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29AF9F4A2946C6F8002231E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		29AF9F522946C7D4002231E1 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		29AF9F572946C9C4002231E1 /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
+		29AF9F5A2946E3BA002231E1 /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
+		29AF9F5C29474A72002231E1 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		29AF9F5E29474C19002231E1 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		29AF9F6029475301002231E1 /* ProductRaw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRaw.swift; sourceTree = "<group>"; };
+		29AF9F6229480BDE002231E1 /* PaymentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +66,8 @@
 			isa = PBXGroup;
 			children = (
 				29AF9F432946C6F6002231E1 /* SweaterShopApp.swift */,
-				29AF9F452946C6F6002231E1 /* ContentView.swift */,
+				29AF9F592946CD67002231E1 /* Views */,
+				29AF9F512946C7C3002231E1 /* Models */,
 				29AF9F472946C6F8002231E1 /* Assets.xcassets */,
 				29AF9F492946C6F8002231E1 /* Preview Content */,
 			);
@@ -65,6 +80,36 @@
 				29AF9F4A2946C6F8002231E1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		29AF9F512946C7C3002231E1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				29AF9F522946C7D4002231E1 /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		29AF9F542946C997002231E1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				29AF9F572946C9C4002231E1 /* ProductCard.swift */,
+				29AF9F5A2946E3BA002231E1 /* CartButton.swift */,
+				29AF9F5E29474C19002231E1 /* CartManager.swift */,
+				29AF9F6029475301002231E1 /* ProductRaw.swift */,
+				29AF9F6229480BDE002231E1 /* PaymentButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		29AF9F592946CD67002231E1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				29AF9F452946C6F6002231E1 /* ContentView.swift */,
+				29AF9F5C29474A72002231E1 /* CartView.swift */,
+				29AF9F542946C997002231E1 /* Components */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +182,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29AF9F6329480BDE002231E1 /* PaymentButton.swift in Sources */,
+				29AF9F5D29474A72002231E1 /* CartView.swift in Sources */,
 				29AF9F462946C6F6002231E1 /* ContentView.swift in Sources */,
+				29AF9F5F29474C19002231E1 /* CartManager.swift in Sources */,
 				29AF9F442946C6F6002231E1 /* SweaterShopApp.swift in Sources */,
+				29AF9F532946C7D4002231E1 /* Product.swift in Sources */,
+				29AF9F582946C9C4002231E1 /* ProductCard.swift in Sources */,
+				29AF9F6129475301002231E1 /* ProductRaw.swift in Sources */,
+				29AF9F5B2946E3BA002231E1 /* CartButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
